@@ -5,10 +5,11 @@ public class Empleado
 	private String puesto;
 	static int cont=0;
 
-	public Empleado(String nom, String puesto)
+	public Empleado(int salario, String nom, String puesto)
 	{
 		this.nom = nom;
 		this.puesto = puesto;
+		this.salario = salario;
 		cont++;
 	}
 
