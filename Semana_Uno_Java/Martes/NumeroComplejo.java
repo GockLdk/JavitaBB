@@ -60,6 +60,12 @@ public class NumeroComplejo
   return angulo;
   }
   
+  public static double magnitud(NumeroComplejo a)
+  {
+    double mag=Math.sqrt(Math.pow(a.parte_real,2)+Math.pow(a.parte_imaginaria,2));
+    return mag;
+  }
+
   public static void cambiarNumeros(NumeroComplejo a, NumeroComplejo b){
     NumeroComplejo aux = new NumeroComplejo();
     aux.parte_real = a.parte_real;
@@ -90,6 +96,8 @@ public class NumeroComplejo
     System.out.println("La division es " + ax.parte_real + " + " + ax.parte_imaginaria+"i");
     System.out.println("El angulo de 1+3i es: "+NumeroComplejo.ang(uno)+"°");
     System.out.println("El angulo de 5+8i es: "+NumeroComplejo.ang(dos)+"°");
+    System.out.println("La magnitud del numero uno es: "+(int)NumeroComplejo.magnitud(uno));
+    System.out.println("La magnitud del numero dos es: "+(int)NumeroComplejo.magnitud(dos));
     NumeroComplejo.cambiarNumeros(uno,dos);
     System.out.println("Ahora uno es: " +uno.parte_real + " + " + uno.parte_imaginaria+"i");
     System.out.println("Ahora dos es: " +dos.parte_real + " + " + dos.parte_imaginaria+"i");
