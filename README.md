@@ -1,2 +1,2 @@
 # JavitaBB
-Emojis para commits <3
+Primera Semana de Java
