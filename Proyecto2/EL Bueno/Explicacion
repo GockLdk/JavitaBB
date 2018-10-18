@@ -1,0 +1,20 @@
+En este documento se pretende explicar el funcionamiento del proyecto de java.
+
+Se implemento un hash map para poder guardar el numero de cliente y su direccion ip
+
+El flujo del proyecto es el siguiente:
+    primero se compilan los archivos: Cliente.java, Servidor.java
+    se ejecutan en diferentes terminales tanto cliente como servidor
+    el cliente se conecta al puerto y dirreccion del servidor
+    el servidor con el comando ADD añade al cliente al chat
+    el cliente puede elejir entre las difentes opcions
+    LIST, TEXT, TEXTO
+    ... En este punto se presentan una serie de malas impresiones en la pantalla del cliente
+        (para demostrarlo/debuggearlo tambien se imprimieron en el servidor)
+        estas fallas principalmente son la impresion del último mensaje con el nuevo
+        
+PREBES:
+    15
+    2   
+
+    
