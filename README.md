@@ -1,2 +1,2 @@
-# JavitaBB
-Primera Semana de Java
+# Primera Semana de Java
+## Tareas, ejercicios, etc.
